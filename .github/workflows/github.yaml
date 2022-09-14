@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: mondoohq/actions/github-org@chris-rock/github-actions
+      - uses: mondoohq/actions/github-org@main
         with:
           service-account-credentials: ${{ secrets.MONDOO_SERVICE_ACCOUNT }}
           token: ${{ secrets.GITHUB_TOKEN }}
